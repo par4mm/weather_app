@@ -1,5 +1,5 @@
 // Get your free API key from https://www.weatherapi.com/
-const API_KEY = "bdb96d8ecfea4e23802161256250512";
+const API_KEY = "YOUR_WEATHERAPI_KEY_HERE";
 
 const cityInput = document.getElementById("city-input");
 const searchBtn = document.getElementById("search-btn");
