@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Weather App</h1>
+
+    <div class="search-box">
+      <input type="text" id="city-input" placeholder="Enter city name (e.g., Chennai)">
+      <button id="search-btn">Get Weather</button>
+    </div>
+
+    <p id="error" class="error"></p>
+
+    <div id="weather-card" class="weather-card hidden">
+      <h2 id="city-name"></h2>
+      <p id="description"></p>
+      <p class="temp" id="temperature"></p>
+      <p id="extra"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
